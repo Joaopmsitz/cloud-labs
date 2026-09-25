@@ -112,9 +112,7 @@ The Analytics retention period was configured for **90 days**, while the Data la
 
 <img width="1019" height="762" alt="image" src="https://github.com/user-attachments/assets/cf2086c9-3b7b-4d04-817e-8ea0d0aecd2c" />
 
----
-
-<img width="1126" height="768" alt="image" src="https://github.com/user-attachments/assets/c03a258f-89a8-499f-9c2d-59090a97bbbf" />
+<img width="1126" height="768" alt="image" src="https://github.com/user-attachments/assets/a1b98d67-7b8c-42a5-89ef-337c3d33c940" />
 
 ---
 
