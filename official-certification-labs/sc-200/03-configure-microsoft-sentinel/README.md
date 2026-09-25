@@ -25,9 +25,9 @@ The lab focuses on core Microsoft Sentinel configuration tasks used to support s
 
 ### 1. Watchlist
 
-Created a Microsoft Sentinel watchlist containing high-value hosts.
+Created a Microsoft Sentinel watchlist containing high-value hosts from a local CSV file.
 
-The CSV file contained the following structure:
+The CSV used for the lab contained five host entries:
 
 ```csv
 Hostname
@@ -40,27 +40,27 @@ Host5
 
 Watchlist configuration:
 
-| Setting     | Value              |
-| ----------- | ------------------ |
-| Name        | `HighValueHostsJP` |
-| Description | `High Value Hosts` |
-| Alias       | `HighValueHosts`   |
-| Search Key  | `Hostname`         |
-| Source      | Local CSV          |
+| Setting     | Value                 |
+| ----------- | --------------------- |
+| Name        | `HighValueHostsJP123` |
+| Description | `High Value Hosts`    |
+| Alias       | `HighValueHosts`      |
+| Search Key  | `Hostname`            |
+| Source      | Local CSV             |
 
-The watchlist can be accessed in KQL using:
+The watchlist is referenced in KQL through its alias:
 
 ```kql
 _GetWatchlist('HighValueHosts')
 ```
 
-The `Hostname` column is used to reference the host values.
+The `Hostname` column was configured as the search key, allowing the host values to be used when querying the watchlist.
 
 ---
 
 ### 2. Threat Intelligence Indicator
 
-Created a threat intelligence indicator through Microsoft Defender's Threat Intelligence management interface.
+Created a domain-based threat intelligence indicator through the Microsoft Defender Threat Intelligence management interface.
 
 Configuration:
 
@@ -68,6 +68,7 @@ Configuration:
 | -------------- | -------------------------------------- |
 | Object Type    | `Indicator`                            |
 | Observable     | Domain name                            |
+| Domain         | `contoso.com.NLH`                      |
 | Indicator Type | `malicious-activity`                   |
 | Valid From     | Lab execution date                     |
 | Description    | `This domain is known to be malicious` |
@@ -89,13 +90,13 @@ ThreatIntelIndicators
 | project ObservableValue
 ```
 
-This allows the observable value associated with the indicator to be isolated from the other threat intelligence fields.
+This query projects the observable value associated with the threat intelligence indicator.
 
 ---
 
 ### 4. Log Retention
 
-Configured the retention settings for the `SecurityEvent` table.
+Configured the retention settings for the `SecurityEvent_CL` table.
 
 | Tier            | Retention |
 | --------------- | --------- |
@@ -103,7 +104,7 @@ Configured the retention settings for the `SecurityEvent` table.
 | Total retention | 90 days   |
 | Data lake       | 180 days  |
 
-The Analytics retention period was changed to **90 days**, while the Data lake retention setting was verified at **180 days**.
+The Analytics retention period was configured for **90 days**, while the Data lake retention setting was verified at **180 days**.
 
 ---
 
@@ -111,8 +112,7 @@ The Analytics retention period was changed to **90 days**, while the Data lake r
 
 <img width="1019" height="762" alt="image" src="https://github.com/user-attachments/assets/cf2086c9-3b7b-4d04-817e-8ea0d0aecd2c" />
 
-<img width="1126" height="768" alt="image" src="https://github.com/user-attachments/assets/c03a258f-89a8-499f-9c2d-59090bba97bf" />
-
+<img width="1126" height="768" alt="image" src="https://github.com/user-attachments/assets/c03a258f-89a8-499f-9c2d-59090a97bbbf" />
 
 ---
 
@@ -124,7 +124,7 @@ Completed the Microsoft Sentinel configuration lab covering:
 * Watchlist search keys and aliases
 * KQL access to watchlists
 * Threat intelligence indicator creation
-* Domain-based observables
+* Domain-based threat intelligence
 * Threat intelligence querying with Advanced Hunting
 * `ThreatIntelIndicators` data
 * Analytics log retention configuration
