@@ -12,12 +12,12 @@ The Azure subscription used for this lab has been retired. This repository prese
 
 ## Labs
 
-1. **Lab 01 — Sentinel Deployment:** Microsoft Sentinel and Log Analytics setup.
-2. **Lab 02 — Data Ingestion and KQL:** Log ingestion and query validation.
-3. **Lab 03 — Endpoint Monitoring:** Azure Monitor Agent (AMA), Data Collection Rules (DCR), and endpoint telemetry.
-4. **Lab 04 — Defender XDR:** Security monitoring and Advanced Hunting.
-5. **Lab 05 — SOAR Foundations:** Automation rules and Logic Apps.
-6. **Lab 06 — Azure Firewall Integration:** Diagnostic settings and network traffic analysis.
+1. **[Lab 01 — Sentinel Deployment](./lab-01-sentinel-deployment/):** Microsoft Sentinel and Log Analytics setup.
+2. **[Lab 02 — Data Ingestion and KQL](./lab-02-data-ingestion-and-kql-validation/):** Log ingestion and query validation.
+3. **[Lab 03 — Endpoint Monitoring](./lab-03-endpoint-monitoring/):** Azure Monitor Agent (AMA), Data Collection Rules (DCR), and endpoint telemetry.
+4. **[Lab 04 — Defender XDR](./lab-04-microsoft-defender-xdr/):** Security monitoring and Advanced Hunting.
+5. **[Lab 05 — SOAR Foundations](./lab-05-sentinel-soar-foundations/):** Automation rules and Logic Apps.
+6. **[Lab 06 — Azure Firewall Integration](./lab-06-azure-firewall-sentinel-integration/):** Diagnostic settings and network traffic analysis.
 
 ## Technologies
 
@@ -45,4 +45,4 @@ Lessons learned from V1 will inform future lab development, with particular atte
 
 ---
 
-[Back to Microsoft Security Labs](../README.md)
+[Back to Microsoft Security](../README.md) · [Back to Cybersecurity Portfolio](../../README.md)
