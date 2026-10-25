@@ -1,28 +1,22 @@
 # Microsoft Security Certification Labs
 
-Personal repository for documenting hands-on labs and practical exercises related to Microsoft security certifications.
+Collection of Microsoft security certification labs organized by certification.
 
 ## SC-200 — Security Operations Analyst
 
-**Status:** In progress
+**Lab Status:** Completed
 
-Labs covering Microsoft Defender XDR, KQL, Microsoft Sentinel, log ingestion, threat detection, investigations, and threat hunting.
+Completed the six official lab modules covering Microsoft Defender XDR, KQL, Microsoft Sentinel configuration, log ingestion, threat detection, incident investigation, and threat hunting.
 
 [View SC-200 Labs](./sc-200/)
 
 ## SC-500 — Cloud and AI Security Engineer Associate
 
-**Status:** Not started
+**Lab Status:** Not started
 
-This section will be updated as I begin studying and documenting SC-500 labs.
+Lab documentation will be added as I begin the SC-500 learning path.
 
-[View SC-500 Directory](./sc-500/)
-
-## Notes
-
-- This repository documents personal learning and practical exercises.
-- Certification achievements are listed separately from exam preparation.
-- Lab documentation must not expose credentials, sensitive information, or private infrastructure.
+[View SC-500 Labs](./sc-500/)
 
 ---
 
