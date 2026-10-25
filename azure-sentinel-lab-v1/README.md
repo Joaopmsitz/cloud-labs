@@ -10,8 +10,6 @@ The project documents practical exercises involving Microsoft Sentinel, Defender
 
 The Azure subscription used for this lab has been retired. This repository preserves the documentation of the environment and the exercises completed during its lifecycle.
 
-![Final state of the Azure Sentinel lab environment](https://github.com/user-attachments/assets/88a76358-7392-424e-b920-fcfb9b3093a5)
-
 ## Labs
 
 1. **Lab 01 — Sentinel Deployment:** Microsoft Sentinel and Log Analytics setup.
