@@ -1,71 +1,50 @@
-# 🛡️ Azure Sentinel SOC Lab (V1)
+# Microsoft Sentinel SOC Lab — V1
 
-Hands-on Microsoft Sentinel laboratory environment created for **SC-200 preparation** and **Security Operations practice** within a personal Azure tenant.
+Hands-on Azure security lab developed for SC-200 preparation and SOC operations practice.
 
-This sub-project documents practical activities involving Microsoft Sentinel, Microsoft Defender XDR, Azure monitoring, endpoint telemetry, KQL, security event investigation, threat hunting, and SOC operations.
+The project documents practical exercises involving Microsoft Sentinel, Defender XDR, log ingestion, KQL, threat detection, incident investigation, threat hunting, and security automation.
 
----
+## Project Status
 
-# 📢 Project Status Update
+**Status:** Completed and archived
 
-> **End of the current lab. Not the end of the journey.**
+The Azure subscription used for this lab has been retired. This repository preserves the documentation of the environment and the exercises completed during its lifecycle.
 
-The Azure subscription that powered this laboratory environment has been retired after successfully supporting multiple Microsoft Sentinel and Defender XDR learning scenarios.
+![Final state of the Azure Sentinel lab environment](https://github.com/user-attachments/assets/88a76358-7392-424e-b920-fcfb9b3093a5)
 
-This folder remains available as an archived record of the complete learning journey, including deployments, monitoring configurations, investigations, detections, and security operations exercises.
+## Labs
 
-<img width="1439" height="813" alt="image" src="https://github.com/user-attachments/assets/88a76358-7392-424e-b920-fcfb9b3093a5" />
+1. **Lab 01 — Sentinel Deployment:** Microsoft Sentinel and Log Analytics setup.
+2. **Lab 02 — Data Ingestion and KQL:** Log ingestion and query validation.
+3. **Lab 03 — Endpoint Monitoring:** Azure Monitor Agent (AMA), Data Collection Rules (DCR), and endpoint telemetry.
+4. **Lab 04 — Defender XDR:** Security monitoring and Advanced Hunting.
+5. **Lab 05 — SOAR Foundations:** Automation rules and Logic Apps.
+6. **Lab 06 — Azure Firewall Integration:** Diagnostic settings and network traffic analysis.
 
-The screenshot above represents the final state of the original lab environment and marks the conclusion of this Azure subscription lifecycle.
+## Technologies
 
----
+- Microsoft Sentinel
+- Microsoft Defender XDR and Defender for Endpoint
+- Azure Monitor, AMA, and DCR
+- Log Analytics Workspace
+- Windows Virtual Machines
+- Azure Firewall
+- Kusto Query Language (KQL)
+- Logic Apps
 
-## 🎯 Objectives
+## Key Learning Outcomes
 
-* Deploy and configure Microsoft Sentinel in a live Azure subscription
-* Practice KQL queries for threat detection and hunting
-* Configure security data ingestion using Azure Monitor Agent (AMA) and Data Collection Rules (DCR)
-* Perform security monitoring and incident investigation
-* Integrate Microsoft Defender XDR and Azure Firewall with Sentinel
-* Develop SOC Analyst skills aligned with Microsoft SC-200
+- Security monitoring and log ingestion
+- KQL queries and threat hunting
+- Detection and incident investigation
+- Alert analysis and false-positive evaluation
+- Security automation and SOAR fundamentals
+- Azure resource and cost management
 
----
+## Next Steps
 
-## 📂 Included Labs
-
-* **Lab 01:** Microsoft Sentinel Deployment & Log Analytics Setup
-* **Lab 02:** Data Ingestion & KQL Validation (Azure Activity Logs, Connectors)
-* **Lab 03:** Endpoint Monitoring & Threat Investigation (AMA, DCR, SecurityEvent table)
-* **Lab 04:** Microsoft Defender XDR & Advanced Hunting
-* **Lab 05:** Sentinel SOAR Foundations (Automation Rules, Logic Apps)
-* **Lab 06:** Azure Firewall & Sentinel Integration (Diagnostic Settings, Network Traffic Analysis)
-
----
-
-## 🧪 Lab Environment & Technologies
-
-* Microsoft Sentinel
-* Microsoft Defender XDR & Defender for Endpoint
-* Azure Monitor & Azure Monitor Agent (AMA)
-* Log Analytics Workspace & Data Collection Rules (DCR)
-* Windows Virtual Machine
-* Azure Firewall
-* KQL (Kusto Query Language)
+Lessons learned from V1 will inform future lab development, with particular attention to cost management, log ingestion, detection engineering, and security monitoring.
 
 ---
 
-## 🧠 Key Skills Demonstrated
-
-* Architecture deployment & log ingestion
-* Analytics rule creation & tuning
-* Incident investigation & false positive analysis
-* KQL threat hunting
-* SOAR playbook automation
-
----
-
-## 🚀 Lessons Learned & What's Next (V2)
-
-The Lab V1 successfully fulfilled its purpose by providing practical experience in managing a full Microsoft security stack. 
-
-Lessons learned regarding Azure cost governance, log management, and detection engineering will be applied directly to the **Lab V2** project.
+[Back to Microsoft Security Labs](../README.md)
