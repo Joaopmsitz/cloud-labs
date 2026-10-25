@@ -1,55 +1,27 @@
 # Microsoft Security — Labs and Certification Preparation
 
-This section documents hands-on exercises, technical notes, and certification preparation related to Microsoft security technologies.
-
-The goal is to connect theoretical knowledge with practical exercises while clearly distinguishing certification achievements, exam preparation, and documented lab experience.
+This section documents Microsoft security labs, practical exercises, and certification preparation.
 
 ## Certification Status
 
 | Certification | Status |
 | --- | --- |
-| Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900) | Earned — 2026 |
-| Microsoft Security Operations Analyst (SC-200) | Preparation in progress |
+| Microsoft SC-900 | Earned — 2026 |
+| Microsoft SC-200 | Exam preparation in progress |
 
-## Labs and Learning Resources
+## Labs
 
-### Azure Sentinel
-
-- [Azure Sentinel Lab v1](https://github.com/Joaopmsitz/cybersecurity-labs/tree/main/microsoft-security/azure-sentinel-lab-v1)
-
-Materials and practical exercises related to Microsoft Sentinel and Azure security monitoring. Refer to the individual lab documentation for its specific objectives, configuration, and results.
-
-### Certification Labs
-
-- [Certification Lab Materials](https://github.com/Joaopmsitz/cybersecurity-labs/tree/main/microsoft-security/official-certification-labs)
-
-A dedicated section for lab exercises and technical materials related to Microsoft security certification studies. Refer to the individual files for the scope and source of each exercise.
-
-## Documentation Standards
-
-Where applicable, each lab should document:
-
-- **Objective:** The task or security concept being explored.
-- **Environment:** Relevant services, components, and lab scope.
-- **Implementation:** Configuration steps, queries, and tools used.
-- **Evidence and results:** Relevant outputs, observations, and findings.
-- **Limitations:** Issues encountered, assumptions, and lessons learned.
-
-Documentation should distinguish expected outcomes from observed results and identify any limitations that affect the conclusions.
+- **[Microsoft Sentinel SOC Lab V1](./azure-sentinel-lab-v1/)** — Completed and archived.
+- **[SC-200 Official Labs](./official-certification-labs/sc-200/)** — All six labs completed.
+- **[SC-500 Labs](./official-certification-labs/sc-500/)** — Not started.
 
 ## Security and Responsible Use
 
-- Use authorized lab environments and accounts.
-- Never publish credentials, access tokens, tenant secrets, or sensitive personal information.
-- Sanitize screenshots, logs, and other evidence before publication.
-- Follow Microsoft documentation terms and the applicable rules of each training platform.
-- Clearly identify third-party materials and link to their original sources when applicable.
-
-## Related Resources
-
-- [Main Cybersecurity Portfolio](https://github.com/Joaopmsitz/cybersecurity-labs/blob/main/README.md)
-- [GitHub Profile](https://github.com/Joaopmsitz)
+- Use authorized lab environments.
+- Never publish credentials, access tokens, or sensitive information.
+- Sanitize screenshots and logs before publication.
+- Preserve attribution for third-party materials.
 
 ---
 
-*This section is updated as new labs, technical notes, and certification learning activities are documented.*
+[Back to Cybersecurity Portfolio](../README.md)
