@@ -1,28 +1,55 @@
-# Microsoft Security — Certification Learning and Labs
+# Microsoft Security — Labs and Certification Preparation
 
-This section is for Microsoft security study notes, documented hands-on exercises, and certification learning. Certification status and practical experience are kept distinct.
+This section documents hands-on exercises, technical notes, and certification preparation related to Microsoft security technologies.
 
-## Certification status
+The goal is to connect theoretical knowledge with practical exercises while clearly distinguishing certification achievements, exam preparation, and documented lab experience.
+
+## Certification Status
 
 | Certification | Status |
-|---|---|
-| Microsoft Security, Compliance, and Identity Fundamentals (SC-900) | Achieved |
+| --- | --- |
+| Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900) | Earned — 2026 |
 | Microsoft Security Operations Analyst (SC-200) | Preparation in progress |
 
-## Topics to document
+## Labs and Learning Resources
 
-As notes and labs are added, organize them around the specific task demonstrated:
+### Azure Sentinel
 
-- Microsoft Sentinel: data connectors, analytics rules, automation, hunting, and investigation.
-- Microsoft Defender XDR: incident investigation, alerts, device timelines, and response actions.
-- Microsoft Defender for Cloud: security posture, recommendations, and workload protection.
-- Microsoft Entra ID: identity, roles, access control, and sign-in investigation.
-- KQL: queries, filtering, aggregation, joins, and security investigation use cases.
+- [Azure Sentinel Lab v1](https://github.com/Joaopmsitz/cybersecurity-labs/tree/main/microsoft-security/azure-sentinel-lab-v1)
 
-Only retain a topic in this list when there is study material or a lab that supports it. For each practical exercise, record the objective, data source, query or configuration, expected result, observed result, and any limitations.
+Materials and practical exercises related to Microsoft Sentinel and Azure security monitoring. Refer to the individual lab documentation for its specific objectives, configuration, and results.
 
-## Documentation and safety
+### Certification Labs
 
-Do not publish tenant identifiers, real user data, access tokens, keys, screenshots containing personal data, or confidential organizational information. Use a lab tenant or sanitized examples. Mark exam-preparation notes as study material, not as proof of hands-on expertise.
+- [Certification Lab Materials](https://github.com/Joaopmsitz/cybersecurity-labs/tree/main/microsoft-security/official-certification-labs)
 
-[Back to the main portfolio](../README.md)
+A dedicated section for lab exercises and technical materials related to Microsoft security certification studies. Refer to the individual files for the scope and source of each exercise.
+
+## Documentation Standards
+
+Where applicable, each lab should document:
+
+- **Objective:** The task or security concept being explored.
+- **Environment:** Relevant services, components, and lab scope.
+- **Implementation:** Configuration steps, queries, and tools used.
+- **Evidence and results:** Relevant outputs, observations, and findings.
+- **Limitations:** Issues encountered, assumptions, and lessons learned.
+
+Documentation should distinguish expected outcomes from observed results and identify any limitations that affect the conclusions.
+
+## Security and Responsible Use
+
+- Use authorized lab environments and accounts.
+- Never publish credentials, access tokens, tenant secrets, or sensitive personal information.
+- Sanitize screenshots, logs, and other evidence before publication.
+- Follow Microsoft documentation terms and the applicable rules of each training platform.
+- Clearly identify third-party materials and link to their original sources when applicable.
+
+## Related Resources
+
+- [Main Cybersecurity Portfolio](https://github.com/Joaopmsitz/cybersecurity-labs/blob/main/README.md)
+- [GitHub Profile](https://github.com/Joaopmsitz)
+
+---
+
+*This section is updated as new labs, technical notes, and certification learning activities are documented.*
