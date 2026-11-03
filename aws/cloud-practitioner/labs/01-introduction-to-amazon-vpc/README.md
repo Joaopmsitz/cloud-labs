@@ -125,4 +125,4 @@ When reproducing the architecture in a personal AWS account, inspect and delete 
 
 ---
 
-[Back to AWS Labs](../../README.md) · [Back to Cloud Labs](../../../README.md)
+[Back to Cloud Practitioner Labs](../../README.md) · [Back to AWS](../../../README.md) · [Back to Cloud Labs](../../../../README.md)

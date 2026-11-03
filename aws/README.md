@@ -1,25 +1,17 @@
 # AWS — Amazon Web Services
 
-Hands-on AWS studies, Builder Labs, cloud infrastructure exercises, and self-directed projects.
+Hands-on AWS studies, certification preparation, cloud infrastructure exercises, and self-directed projects.
 
-## Labs
+## Learning Paths
 
-| Lab | Description | Status |
-|---|---|---|
-| [01 — Introduction to Amazon VPC](./labs/01-introduction-to-amazon-vpc/README.md) | Create and explore an Amazon VPC, public and private subnets, Internet Gateway, NAT Gateway, route tables, Network ACLs, and Security Groups. | Not started |
+| Learning Path | Description |
+|---|---|
+| [AWS Cloud Practitioner Labs](./cloud-practitioner/README.md) | Foundational AWS labs and practical exercises supporting preparation for the AWS Certified Cloud Practitioner certification. |
 
 ## Projects
 
 See [AWS Projects](./projects/README.md).
 
-## Documentation Guidelines
+## Documentation
 
-Each lab is documented using original notes and observations:
-
-- Objectives and architecture.
-- Configuration and implementation.
-- Validation and technical observations.
-- Screenshots or diagrams created by the author.
-- Lessons learned and cleanup.
-
-Do not publish credentials, AWS account IDs, private resource identifiers, or confidential training material.
+Labs are organized by learning path and numbered independently. Each write-up documents objectives, implementation, validation, observations, and lessons learned.
