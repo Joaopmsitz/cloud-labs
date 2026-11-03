@@ -1,27 +1,23 @@
-# Microsoft Security — Labs and Certification Preparation
+# Cloud Labs
 
-This section documents Microsoft security labs, practical exercises, and certification preparation.
+> AWS, Microsoft Cloud, cloud infrastructure, and cloud security.
 
-## Certification Status
+This repository documents hands-on studies and projects involving cloud platforms, infrastructure services, networking, identity, monitoring, and security.
 
-| Certification | Status |
-| --- | --- |
-| Microsoft SC-900 | Earned — 2026 |
-| Microsoft SC-200 | Exam preparation in progress |
+## Cloud Platforms and Services
 
-## Labs
+| Area | Description |
+|---|---|
+| [AWS](./aws/README.md) | Amazon Web Services labs, cloud networking, VPC, IAM, infrastructure, and practical projects. |
+| [Microsoft Security](./microsoft-security/README.md) | Microsoft Sentinel, Defender, SIEM, XDR, threat detection, and cloud security exercises. |
+| [Azure](./azure/README.md) | Azure infrastructure, networking, identity, and future cloud projects. |
 
-- **[Microsoft Sentinel SOC Lab V1](./azure-sentinel-lab-v1/)** — Completed and archived.
-- **[SC-200 Official Labs](./official-certification-labs/sc-200/)** — All six labs completed.
-- **[SC-500 Labs](./official-certification-labs/sc-500/)** — Not started.
+## Documentation
 
-## Security and Responsible Use
+Each lab is documented independently with original objectives, implementation steps, technical observations, evidence, and lessons learned.
 
-- Use authorized lab environments.
-- Never publish credentials, access tokens, or sensitive information.
-- Sanitize screenshots and logs before publication.
-- Preserve attribution for third-party materials.
+Never publish credentials, account identifiers, access keys, private infrastructure details, or confidential training content.
 
 ---
 
-[Back to Cybersecurity Portfolio](../README.md)
+[Cybersecurity Portfolio](https://github.com/Joaopmsitz/cybersecurity-labs) · [Networking Portfolio](https://github.com/Joaopmsitz/networking-labs)
