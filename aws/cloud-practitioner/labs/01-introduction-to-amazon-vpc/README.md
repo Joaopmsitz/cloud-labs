@@ -3,7 +3,6 @@
 > AWS Builder Labs · SPL-84 · Version 2.0.22
 
 **Status:** Completed  
-**Duration:** 45 minutes
 
 ## Overview
 
